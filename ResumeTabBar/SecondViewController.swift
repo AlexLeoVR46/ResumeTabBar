@@ -10,9 +10,10 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet var viewInfo: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewInfo.layer.cornerRadius = 10
     }
 
 

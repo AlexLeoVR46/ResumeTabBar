@@ -10,9 +10,12 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet var viewInfo: UIView!
+    @IBOutlet var photoView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+      photoView.layer.cornerRadius = 10
+        viewInfo.layer.cornerRadius = 10
     }
 
 

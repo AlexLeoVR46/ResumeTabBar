@@ -13,6 +13,7 @@
 		F49086AE2271D632004C4B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49086AC2271D632004C4B6E /* Main.storyboard */; };
 		F49086B02271D633004C4B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49086AF2271D633004C4B6E /* Assets.xcassets */; };
 		F49086B32271D633004C4B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49086B12271D633004C4B6E /* LaunchScreen.storyboard */; };
+		F49086BB2271D6A6004C4B6E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49086BA2271D6A6004C4B6E /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F49086AF2271D633004C4B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49086B22271D633004C4B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49086B42271D633004C4B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49086BA2271D6A6004C4B6E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F49086A62271D632004C4B6E /* AppDelegate.swift */,
 				F49086A82271D632004C4B6E /* FirstViewController.swift */,
 				F49086AA2271D632004C4B6E /* SecondViewController.swift */,
+				F49086BA2271D6A6004C4B6E /* ThirdViewController.swift */,
 				F49086AC2271D632004C4B6E /* Main.storyboard */,
 				F49086AF2271D633004C4B6E /* Assets.xcassets */,
 				F49086B12271D633004C4B6E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				F49086AB2271D632004C4B6E /* SecondViewController.swift in Sources */,
 				F49086A72271D632004C4B6E /* AppDelegate.swift in Sources */,
+				F49086BB2271D6A6004C4B6E /* ThirdViewController.swift in Sources */,
 				F49086A92271D632004C4B6E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
