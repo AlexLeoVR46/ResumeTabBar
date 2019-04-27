@@ -10,11 +10,12 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    @IBOutlet var hobbiesView: UIView!
     @IBOutlet var titleView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-      titleView.layer.cornerRadius = 10
+        hobbiesView.layer.cornerRadius = 10
+        titleView.layer.cornerRadius = 10
     }
     
 
